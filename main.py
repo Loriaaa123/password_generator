@@ -19,7 +19,6 @@ def gen_pass():
     random.shuffle(password_list)
     password = "".join(password_list)
     entry_pass.insert(0, password)
-    pyperclip.copy(password)
 
 
 def saving():
